@@ -3,8 +3,8 @@
             [clojure.string :refer [join]]
             [clojure.java.jdbc :as j]
             [clojure.data :as d]
-  (:import [org.apache.poi.ss.usermodel Cell])
-  (:gen-class))
+  #_(:import [org.apache.poi.ss.usermodel Cell])
+  (:gen-class)))
 
 ;; Database
 (def hsql-db {:subprotocol "hsqldb"
